@@ -2,7 +2,7 @@ body {
     /* background-color: rgb(0, 117, 193); */
     background-color: darkgrey;
 }
-
+/* NAVABR */
 #navbar-container {
     background-color: azure;
     display: flex;
@@ -11,10 +11,12 @@ body {
     margin: auto;
 }
 
+/* CONTENT */
 #content {
     background-color: azure;
 }
 
+/* FOOTER */
 footer {
     background-color: azure;
     position: absolute;
