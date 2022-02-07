@@ -3,7 +3,11 @@ body {
 }
 
 #navbar {
-    background-color:cornsilk
+    background-color:cornsilk;
+    display: flex;
+}
+#navbar nav {
+    margin: auto;
 }
 
 #content {
