@@ -1,11 +1,15 @@
-.navbar {
+body {
+    background-color: rgb(0, 117, 193);
+}
+
+#navbar {
     background-color:cornsilk
 }
 
-.content {
+#content {
     background-color: cornsilk;
 }
 
-.footer {
+#footer {
     background-color: darkgray;
 }
