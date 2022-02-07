@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="container" id="navbar-container">
+    <div id="navbar-container">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -30,17 +30,37 @@
         </nav>
     </div>
 
-    <div class="cotnainer" id="content">
-        <div id="selections">
-            <section></section>
-        </div>
+    <div class="container" id="content">
+        <section class="filter">
+            <div class="form-group">
+                <label for="orderBy">Order By</label>
+                <select id="orderBy" name="orderBy">
+                    <option value="name">Name</option>
+                    <option value="published">Published</option>
+                    <option value="id">ID</option>
+                </select>
+            </div>
 
-        <div id="items">
+            <div class="form-group">
+                <label for="published">Show Unpublished?</label>
+                <select id="published" name="published">
+                    <option value="true">True</option>
+                    <option value="false">False</option>
+                </select>
+            </div>
+        </section>
 
-        </div>
+        <section class="items">
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </section>
+
     </div>
-
-
 
     <footer class="text-dark">
         <div class="container p-4 footer-con">
