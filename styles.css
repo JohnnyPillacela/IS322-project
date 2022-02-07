@@ -16,6 +16,9 @@ body {
 #content {
     background-color: antiquewhite;
     display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    margin: 20px auto;
 }
 
 .filter {
@@ -26,7 +29,7 @@ body {
 /* FOOTER */
 footer {
     background-color:antiquewhite;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     margin: 0 auto;
     width: 100%;
