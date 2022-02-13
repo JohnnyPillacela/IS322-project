@@ -71,7 +71,14 @@ body {
 }
 
 .card-body {
+    margin: 0;
+    padding: 0;
+    flex: 0;
     margin: 10px auto;
+}
+
+.card-body p{
+    margin: 0;
 }
 
 
