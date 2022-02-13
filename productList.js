@@ -50,4 +50,14 @@
     document.querySelector('#orderBy').addEventListener('change', function (event) {
         orderBy(event.target.value);
     });
+	function showUnavailable(showUnavailable) {
+		var filteredResults = itemsDB.filter(function (result) {
+			return showUnavailable || result.available;
+		});
+		renderList(filteredResults);
+	}
+	document.querySelector('#available').addEventListener('change', function(event){
+		var value = event.target.value === 'true';
+		showUnavailable(value);
+	});
 })(); 
