@@ -56,6 +56,15 @@ body {
     min-width: 200px;
 }
 
+img {
+    height: 70%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* FOOTER */
 footer {
