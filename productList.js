@@ -15,7 +15,7 @@
         items.innerHTML = '';
         var tableRows = results.map(function (result, index) {
             return `
-            <div class="card" id="card-item">
+            <div class="card">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                     <p class="card-text">${result.name}</p>
