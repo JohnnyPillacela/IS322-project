@@ -69,6 +69,30 @@ footer {
     margin: auto;
 }
 
+@media only screen and (max-width: 1030px) {
+
+    .filter {
+        margin: 10px auto;
+    }
+
+    #items-container {
+        /* flex-direction: column; */
+        margin: 20px auto;
+        align-items: center;
+    }
+    
+    .card {
+        width: 200px;
+        /* min-width: 300px; */
+        /* max-width: 300px; */
+    }
+    
+    .footer-con {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 769px) {
     #filter-items-content-container {
         flex-direction: column;
@@ -86,7 +110,7 @@ footer {
     }
     
     .card {
-        min-width: 300px;
+        width: 300px;
         /* max-width: 250px; */
     }
     
