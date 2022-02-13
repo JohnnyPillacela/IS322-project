@@ -29,16 +29,23 @@ body {
 .filter {
     display: flex;
     flex-direction: column;
-    margin: 20px auto;
-    text-align: center;
+    margin: 10px 10px;
+    text-align: left;
+    align-items: left;
+    min-width: 150px;
+    padding: 0px 10px;
+}
+
+.form-group {
+    margin: 10px 0px;
 }
 
 #items-container {
     display: flex;
     flex-wrap: wrap;
     /* flex: 1 1 auto; */
-    margin: 20px auto;
-    padding: 0px 10px;
+    margin: 10px auto;
+    padding: 0px 0px;
     align-items: center;
 }
 
@@ -46,7 +53,7 @@ body {
     flex: 1 1 180px;
     margin: 10px 10px;
     height: 150px;
-    min-width: 250px;
+    min-width: 200px;
 }
 
 
@@ -73,7 +80,7 @@ footer {
 
 @media only screen and (max-width: 1030px) {    
     .card {
-        min-width: 250px;
+        min-width: 150px;
     }
 }
 
@@ -84,10 +91,17 @@ footer {
 
     .filter {
         flex-direction: row;
+        text-align: center;
+        align-items: center;
+        margin: 15px auto;
+    }
+
+    .form-group {
+        margin: 0px 10px;
     }
     
     .card {
-        width: 300px;
+        min-width: 300px;
         /* max-width: 250px; */
         /* max-width: 350px; */
     }
